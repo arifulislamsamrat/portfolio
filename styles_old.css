@@ -21,8 +21,8 @@ section{
 
 }
 .header{
-    background: #fff8f3;
-    background-image: url('/images/banner.png'),url('/images/Developer.png');
+    /* background: #fff8f3; */
+    /* background-image: url('/images/banner.png'),url('/images/Developer.png'); */
     background-repeat: no-repeat;
     background-position: bottom right,left;
     background-size:contain;
@@ -44,6 +44,7 @@ nav li{
 .nav-title{
     font-weight: 800;
     font-size: 45px;
+    color: white;
 }
 /* banner */
 .banner{
