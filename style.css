@@ -22,7 +22,7 @@
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 0px 200px;
+    margin: 0px 150px;
     padding-top: 30px;
 }
 nav ul{
@@ -37,4 +37,64 @@ nav li{
     font-weight: 800;
     font-size: 35px;
     color: white;
+}
+.full-name{
+    color: blueviolet;
+}
+
+/* typewriter code */
+.typewriter h2 {
+    color: #fff;
+    font-family: monospace;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(30, end),
+      blink-caret .5s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange }
+  }
+  
+
+.top-banner{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 100px 250px;
+    /* border: 1px solid red; */
+    font-size: 22px;
+}
+.top-banner img{
+    width: 50px;
+}
+.top-banner-naming{
+    margin-top: 80px;
+    margin-left: 50px;
+}
+.top-banner-naming h2{
+    
+    letter-spacing: 6px; 
+    font-weight: bold;
+      
+}
+.top-banner-naming p{
+    color: rgb(186, 178, 178);
+}
+div .banner-image{
+    width: 350px;
+    height: 422px;
+    
+    
 }
