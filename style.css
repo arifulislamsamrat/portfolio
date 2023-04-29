@@ -11,7 +11,7 @@
 
 .header{
     /* background: #fff8f3; */
-    background-image: url('/images/herobg.png');
+    background-image: url('images/herobg.png');
     background-repeat: no-repeat;
     /* background-position: bottom right,left; */
     background-size: cover;
@@ -128,8 +128,10 @@ div .banner-image{
 }
 .overview-images div{
     margin: 10px;
+    height: 200px;
     border: 1px solid rgb(94, 205, 219);
     background-color: #130E2E;
+    border-radius: 10px;
 }
 .overview-img-tag{
     width: 250px;
